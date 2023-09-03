@@ -22,7 +22,8 @@ int main() {
      printf("\n %d Bit wise OR  %d  =  %d\n",x, y,  x | y);
      printf("\n %d Bit wise AND  %d  =  %d\n",x, y,  x & y);
      printf("\n %d Bit wise Ex Or  %d  =  %d\n",x, y,  x ^ y);
-     printf("\n  Bit wise NOT of  %d  =  %d\n",x,  ~ x);
+     printf("\n  Bit wise NOT of  %u  =   %u \n",x,  ~x);
+     
 
     return 0;
 }
